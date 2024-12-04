@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of Thrones Quotes</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2C3E50;
+            color: #ECF0F1;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-top: 50px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        #quote-container {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #34495E;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            transition: transform 0.3s ease;
+        }
+
+        #quote-container:hover {
+            transform: scale(1.05);
+        }
+
+        p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        strong {
+            color: #F39C12;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1rem;
+            color: #BDC3C7;
+        }
+
+        footer a {
+            color: #F39C12;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Game of Thrones Quote</h1>
+    <div id="quote-container">
+        <!-- La cita será insertada aquí por el script -->
+    </div>
+
+    <footer>
+        <p>Quote sourced from <a href="https://gameofthronesquotes.xyz" target="_blank">Game of Thrones Quotes API</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
